@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nbhung318.quanlychitieucanhan.GioiThieuActivity"
+    android:background="#fdfdfd">
+
+    <TextView
+        android:layout_marginLeft="18dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="QUẢN LÝ CHI TIÊU CÁ NHÂN"
+        android:textColor="#1db110"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="391dp"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+            android:text="      Là ứng dụng được ra đời để giúp người dùng dễ dàng hơn trong việc quản lý tài chính cho bản thân, hướng đến việc tiết kiệm và chi tiêu hợp lý...Ứng dụng cho phép người dùng ghi lại mọi khoản thu chi được thực hiện, sau đó tổng hợp để giúp họ biết được thói quen tiêu dùng của mình, từ ăn uống, học hành, mua sắm, du lịch và hẹn hò...Với Quản lý chi tiêu cá nhân, người dùng sẽ biết được ngân sách hiện có thể chi tiêu của mình là bao nhiêu, mình đã tiêu tiền vào những khoản nào, số tiền đã tiết kiệm được... từ đó chủ động quản lý tài chính cá nhân và thay đổi hành vi tiêu dùng phù hợp với tình hình tài chính hiện tại."
+            android:textColor="#050505"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+    </ScrollView>
+</RelativeLayout>

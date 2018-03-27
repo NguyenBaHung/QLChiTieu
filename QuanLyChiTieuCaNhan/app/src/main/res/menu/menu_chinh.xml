@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Đa chức năng"
+        android:icon="@drawable/dachucnang"
+        app:showAsAction="always"
+        android:id="@+id/itDachucnang"/>
+    <item android:title="Thông báo"
+        android:icon="@drawable/email"
+        app:showAsAction="always"
+        android:id="@+id/itThongbao"/>
+    <item android:title="Lịch sử năm trước"
+        android:id="@+id/itNamTruoc"/>
+    <item android:title="Lịch sử năm nay"
+        android:id="@+id/itNamNay"/>
+    <item android:title="Lịch sử năm sau"
+        android:id="@+id/itNamSau"/>
+    <item android:title="Giới thiệu"
+        android:id="@+id/itGioithieu"/>
+</menu>
